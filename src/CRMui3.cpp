@@ -214,7 +214,7 @@ void CRMui3::http() {
     
     _buf += "}";
     // Serial.println(_buf.length());
-    //в оригинальной версии ~7800
+    //в оригинальной версии ~7000 я ставил 5000 и 7800 максимум 7840
     if (_buf.length() > 5000) request->send_P(200, F("text/plain"), _buf.c_str());
     else request->send(200, F("text/plain"), _buf);
     _buf = String();
