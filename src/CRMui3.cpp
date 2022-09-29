@@ -1,4 +1,4 @@
-// #define _gz
+#define _gz
 
 #include "CRMui3.h"
 
