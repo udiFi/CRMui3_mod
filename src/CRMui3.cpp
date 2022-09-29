@@ -4,7 +4,6 @@
 
 #ifdef _gz
   #include "web/index.html.h"
-  #include "web_script.js.h"
   #include "web/script.js.h"
   #include "web/style.css.h"
 #else
