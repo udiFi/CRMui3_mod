@@ -26,6 +26,10 @@ crm.page("&#xe81e; Таймер");
     crm.output({OUTPUT_TEXT, "", "", "$1 " + String(i+1), "#ff5"});
     crm.output({OUTPUT_TEXT, "", "", "$2 " + String(i+1), "#ff5"});
   }
+  crm.select({INPUT_SELECT_PIECE_UP,"select4", "Что именно", String(select4), {
+  {"$1", "0"}, 
+  {"$2", "1"}
+  }});
 ```
 $nnn
 
